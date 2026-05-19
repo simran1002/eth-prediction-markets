@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env*.local
+contracts/.env
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+coverage/
+cache/
+artifacts/
+typechain-types/
+
+# IDE / OS
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# Hardhat
+contracts/cache/
+contracts/artifacts/
+contracts/typechain-types/
